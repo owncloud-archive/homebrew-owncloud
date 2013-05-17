@@ -6,7 +6,7 @@ client.
 
 To add this repo to homebrew, open a terminal and type
 
-    brew tap owncloud
+    brew tap owncloud/owncloud
 
 To install libiniparser and libqtkeychain, run
 

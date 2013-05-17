@@ -1,6 +1,6 @@
 require 'formula'
 
-class Csync < Formula
+class Ocsync < Formula
   homepage ''
   head 'git://git.csync.org/users/freitag/csync.git', :branch => 'dav'
   depends_on 'cmake' => :build

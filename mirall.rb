@@ -4,7 +4,8 @@ class Mirall < Formula
   homepage ''
   head 'git://gitorious.org/owncloud/mirall.git'
   depends_on 'cmake' => :build
-  depends_on 'csync'
+# ocsync should not be installed
+#  depends_on 'ocsync'
   depends_on 'qt'
 
 def install

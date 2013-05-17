@@ -7,13 +7,16 @@ class Mirall < Formula
   depends_on 'csync'
   depends_on 'qt'
 
-  def install
-     mkdir 'build'
-     cd 'build' do
-      system "cmake .. #{std_cmake_parameters}"
-      system "make install"
-     end
-  end
+def install
+#  Dependency tracking only, uncomment this section only if you know what you
+#  are doing!
+#
+#     mkdir 'build'
+#     cd 'build' do
+#      system "cmake .. #{std_cmake_parameters}"
+#      system "make package"
+#     end
+end
 
   def test
     # This test will fail and we won't accept that! It's enough to just replace

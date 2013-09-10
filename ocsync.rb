@@ -2,7 +2,7 @@ require 'formula'
 
 class Ocsync < Formula
   homepage ''
-  head 'git://git.csync.org/users/freitag/csync.git', :branch => 'dav'
+  head 'git://git.csync.org/users/owncloud/csync.git', :branch => 'ocsync'
   depends_on 'cmake' => :build
   depends_on 'neon'
   depends_on 'sqlite'

@@ -1,7 +1,7 @@
 Homebrew recepies for ownCloud
 ------------------------------
 
-The repository contains recepies for building the ownCloud
+The repository contains recipes for building the ownCloud
 client.
 
 To add this repo to homebrew, open a terminal and type

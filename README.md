@@ -1,4 +1,4 @@
-Homebrew recepies for ownCloud
+Homebrew recipes for ownCloud
 ------------------------------
 
 The repository contains recipes for building the ownCloud

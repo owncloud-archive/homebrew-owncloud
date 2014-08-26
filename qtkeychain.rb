@@ -12,7 +12,7 @@ class Qtkeychain < Formula
   # depends on Qt, but we want to accept a system Qt as well. How?
 
   def install
-    system "cmake", ".", *std_cmake_args
+    system "cmake", ".", "-DCMAKE_PREFIX_PATH=/usr/local/opt/qt5", *std_cmake_args
     system "make install" # if this fails, try separate make/make install steps
   end
 

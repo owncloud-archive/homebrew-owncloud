@@ -7,6 +7,7 @@ class Mirall < Formula
 # ocsync should not be installed
 #  depends_on 'ocsync'
   depends_on 'qt5'
+  depends_on 'neon'
 
 def install
 #  Dependency tracking only, uncomment this section only if you know what you

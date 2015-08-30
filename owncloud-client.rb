@@ -1,6 +1,6 @@
 require 'formula'
 
-class owncloudClient < Formula
+class OwncloudClient < Formula
   homepage 'https://github.com/owncloud/client'
   head 'git@github.com:owncloud/client.git'
   depends_on 'cmake' => :build

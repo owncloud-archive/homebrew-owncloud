@@ -1,13 +1,16 @@
 require 'formula'
 
-class Mirall < Formula
-  homepage ''
-  head 'git://gitorious.org/owncloud/mirall.git'
+class owncloudClient < Formula
+  homepage 'https://github.com/owncloud/client'
+  head 'git@github.com:owncloud/client.git'
   depends_on 'cmake' => :build
 # ocsync should not be installed
 #  depends_on 'ocsync'
   depends_on 'qt5'
-  depends_on 'neon'
+  depends_on 'qtkeychain'
+
+  # on MacOS neon is no dependency anymore with qt5
+  # depends_on 'neon'
 
 def install
 #  Dependency tracking only, uncomment this section only if you know what you

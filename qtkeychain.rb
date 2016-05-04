@@ -5,7 +5,7 @@ require 'formula'
 class Qtkeychain < Formula
   homepage 'https://github.com/frankosterfeld/qtkeychain'
   head 'https://github.com/frankosterfeld/qtkeychain.git', :using => :git
-  url 'https://github.com/frankosterfeld/qtkeychain/archive/0.6.2.tar.gz'
+  url 'https://github.com/frankosterfeld/qtkeychain/archive/v0.6.2.tar.gz'
   sha1 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
 
   depends_on 'cmake' => :build

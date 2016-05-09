@@ -6,7 +6,7 @@ class Qtkeychain < Formula
   homepage 'https://github.com/frankosterfeld/qtkeychain'
   head 'https://github.com/frankosterfeld/qtkeychain.git', :using => :git
   url 'https://github.com/frankosterfeld/qtkeychain/archive/v0.6.2.tar.gz'
-  sha1 'da39a3ee5e6b4b0d3255bfef95601890afd80709'
+  sha256 'ae13459234feeeab3a154457319d9b26ee9600973443517c77e055838ebae63c'
 
   depends_on 'cmake' => :build
   # depends on Qt, but we want to accept a system Qt as well. How?
